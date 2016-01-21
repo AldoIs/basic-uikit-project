@@ -1,3 +1,7 @@
 body {
-    background: #000;
+    background: #fff;
+}
+.tm-panel-overlay {
+    border: 3px rgba(128, 128, 128, 0.2) solid;
+    padding: 10px;
 }
