@@ -1,0 +1,63 @@
+body {
+	background: #fff;
+}
+
+.tm-sidebar-fixed {
+	position: fixed;
+	width: 50px;
+	overflow: hidden;
+    top:0;
+    left: 0;
+    color: white;
+    background: #333;
+        -webkit-transition: -webkit-transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+    -ms-scroll-chaining: none;
+    height: 100%;
+    z-index: 2;
+}
+.tm-sidebar-fixed .uk-panel {
+	width: 200px;
+	padding-left: 15px;
+	position: relative;
+	z-index: 9000;
+}
+.tm-sidebar-fixed i {
+	margin-right: 15px;
+}
+.tm-sidebar-fixed li {
+	margin: 15px 0;
+}
+.tm-sidebar-fixed:hover {
+	width: 200px;
+
+}
+.tm-header-bar {
+    min-height: 80px;
+}
+.mapa {
+    max-height: 400px;
+    overflow: hidden;
+}
+.tm-panel {
+    padding: 15px;
+    border: solid 3px rgba(128, 128, 128, 0.1);
+    border-top: 0px;
+}
+
+hr.tm-divider {
+    margin-top: 35px;
+    border-width: 5px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.tm-footer.uk-margin-large {
+    background: rgba(128, 128, 128, 0.15);
+    min-height: 30px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
